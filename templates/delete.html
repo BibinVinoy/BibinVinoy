@@ -1,0 +1,7 @@
+{% block content %}
+<form method="post">
+  {% csrf_token %}
+  Are you sure you want to delete the task?
+  <button name="btn">Confirm</button>
+</form>
+{% endblock %}
